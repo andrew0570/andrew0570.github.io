@@ -1,3 +1,6 @@
+Python 3.11.0 
+Type "help", "copyright", "credits" or "license()" for more information.
+
 #https://www.niehs.nih.gov/health/topics/agents/air-pollution/index.cfm#:~:text=Respiratory%20Disease,are%20linked%20to%20chronic%20bronchitis.
 import streamlit as st
 import pandas as pd
