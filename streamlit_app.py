@@ -11,17 +11,9 @@ df = pd.DataFrame({'Years':[2020,2015,2010,2005,2000,1995,1990]
 
 
 
-import geocoder
 airqualdict = {'0-50':'Good','51-100':'Moderate','101-150':'Unhealthy for sensitive groups','151-200':'Unhealthy','201-300':'Very unhealthy','301 or higher':'Hazardous'}
 dictionary = {'Alabama':'30','Alaska':'24','Arizona':'50', 'Arkansas':'25', 'California':'63', 'Colorado':'52', 'Connecticut':'26', 'Delaware':'27', 'Florida':'38', 'Georgia':'42', 'Hawaii':'18', 'Idaho':'15', 'Illinois':'50', 'Indiana':'23', 'Iowa':'12', 'Kansas':'30', 'Kentucky':'39', 'Louisiana':'28', 'Maine':'34', 'Maryland':'24', 'Massachusetts':'22', 'Michigan':'50', 'Minnesota':'40', 'Mississippi':'26', 'Missouri':'21', 'Montana':'45', 'Nebraska':'28', 'Nevada':'28', 'New Hampshire':'26', 'New Jersey':'32', 'New Mexico':'27', 'New York':'30', 'North Carolina':'31', 'North Dakota':'29', 'Ohio':'26', 'Oklahoma':'27', 'Oregon':'39', 'Pennsylvania':'33', 'Rhode Island':'16', 'South Carolina':'30', 'South Dakota':'22', 'Tennessee':'17', 'Texas':'26', 'Utah':'37', 'Vermont':'23', 'Virginia':'22', 'Washington':'39', 'West Virginia':'22', 'Wisconsin':'23', 'Wyoming':'33'}
 
-
-
-userlocation = geocoder.ip('Me')
-ip = open('ipaddress.txt', 'a')
-strip = str(userlocation)
-ip.writelines(strip)
-ip.close()
 
 
 def pagelayout():
