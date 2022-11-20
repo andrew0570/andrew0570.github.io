@@ -1,7 +1,3 @@
-Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
-
-#https://www.niehs.nih.gov/health/topics/agents/air-pollution/index.cfm#:~:text=Respiratory%20Disease,are%20linked%20to%20chronic%20bronchitis.
 import streamlit as st
 import pandas as pd
 import numpy as np
